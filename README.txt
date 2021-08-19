@@ -3,6 +3,8 @@ gcloud auth activate-service-account --key-file speech-api-173412-87a9b1c8bb4e.j
 Cloud storage -> Browser -> bucket permissions -> Add service account, give
 "Storage Object Creator"
 "Storage Object Viewer"
+role.  If we want to be able to overwrite files, then we also need a
+"Storage Object Admin"
 role.
 
 merge channels from a stereo mp3:
